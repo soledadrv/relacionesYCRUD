@@ -19,9 +19,9 @@
     <p>RELEASE DATE: <%= movie.release_date %> </p>
     <br>
     <section>
-        <a href="/movies/add">Agregar</a>
-        <a href="/movies/edit/<%= movie.id %>">Modificar</a>
-        <a href="/movies/delete/<%= movie.id %>">Borrar</a>
+        <a href="/movies/edit/<%= movie.id %>" class="botonModificar">Modificar</a>
+        <a href="/movies/delete/<%= movie.id %>" class="botonBorrar">Borrar</a>
+        <a href="/movies/add" class="botonVolver">Agregar nueva película</a>
         <a href="/movies">Listado de películas</a>
     </section>
 
